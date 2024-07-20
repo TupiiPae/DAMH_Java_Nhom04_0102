@@ -1,0 +1,91 @@
+main {
+    font-family: Arial, sans-serif;
+    padding: 100px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+.list-product{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    justify-content:space-evenly;
+}
+.product-container {
+    max-width: 300px;
+    gap: 20px;
+    padding: 20px
+}
+
+.product-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    padding:10px;
+    text-align: center;
+}
+
+.product-box img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.small-image {
+    background-color: white;
+    padding:10px;
+    text-align: center;
+}
+
+.small-image img {
+    width: 60px;
+    height: auto;
+    border-radius: 3px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.small-image img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.product-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #e74c3c;
+}
+
+.product-description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-now-button:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,167 @@
+/*Side Bar*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 12px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    padding-left: 120px;
+    padding-bottom: 0;
+    flex: 1;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    position: relative;
+    display: flex;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+}
+
+
+.navbar .search {
+    display: flex;
+    margin-left: 150px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.navbar .user-menu {
+    display: flex;
+    margin: 0;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.navbar .right {
+    display: flex;
+    margin: 0;
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.icon {
+    color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+
+.login-box {
+    background: white;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.login-box h3 {
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.login-box h3 a {
+    color: red;
+}
+
+.input-group {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group label::after {
+    content: " *";
+    color: red;
+}
+
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    padding-top: 13px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-group {
+    width: 100%;
+    padding: 8px;
+    padding-top: 20px;
+}
+
+.btn-group button {
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-regis {
+    background: black;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-regis:hover {
+    background: white;
+    color: #333;
+    border: 1px solid black;
+}
+
